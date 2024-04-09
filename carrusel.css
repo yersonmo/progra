@@ -1,0 +1,44 @@
+.carrusel{
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.carrusel-imagen
+{
+    width: 100%;
+    display: block;
+    transition: transform 0.5 ease;
+}
+.carrusel-imagen:hover{
+    transform: scale(1.1);
+
+}
+.carrusel-imagen:first-child{
+    margin-left: 0;
+}
+.carrusel-imagen:not(:first-child){
+    margin-left: 0px; 
+  }
+  
+  .carrusel-iner {
+    animation: slide 5s infinite; 
+}
+.carrusel-iner{
+    display: flex;
+}
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    33.33% {
+      transform: translateX(-100%);
+    }
+    66.66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
