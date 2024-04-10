@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perros</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        .img-container {
+            position: relative;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+        .img-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .img-container:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="carrusel2.html">Inicio</a>
+        <a href="Perros2.html">Perros</a>
+        <a href="gatos2.html">Gatos</a>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Perros</h1>
+                <p>¡Bienvenido a la sección de perros!</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="img-container">
+                    <a href="perro1.html">
+                        <img src="img/huskey2.jpg" class="img-fluid" alt="Perro 1">
+                    </a>
+                </div>
+                <p class="mt-2">Descripción del perro 1.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="img-container">
+                    <img src="img/perro2.jpg" class="img-fluid" alt="Perro 2">
+                </div>
+                <p class="mt-2">Descripción del perro 2.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="img-container">
+                    <img src="img/perro3.jpg" class="img-fluid" alt="Perro 3">
+                </div>
+                <p class="mt-2">Descripción del perro 3.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
