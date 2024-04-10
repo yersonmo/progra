@@ -1,5 +1,5 @@
 .carrusel{
-    width: 300px;
+    width: 1500px;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
@@ -8,7 +8,7 @@
 {
     width: 100%;
     display: block;
-    transition: transform 0.5 ease;
+    transition: transform 1.0 ease;
 }
 .carrusel-imagen:hover{
     transform: scale(1.1);
